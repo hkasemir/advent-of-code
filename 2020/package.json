@@ -1,0 +1,14 @@
+{
+  "name": "adventofcode",
+  "version": "1.0.0",
+  "description": "fun times",
+  "main": "day1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "heidi",
+  "license": "ISC",
+  "dependencies": {
+    "papaparse": "^5.3.1"
+  }
+}
