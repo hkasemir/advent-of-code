@@ -2,7 +2,7 @@ const fs = require("fs");
 const papa = require("papaparse");
 
 fs.readFile("./day4-input.csv", { encoding: "utf-8" }, (err, data) => {
-  const rows = papa.parse(data).data.map((row) => row);
+  const rows = papa.parse(data).data;
   const numbersToCall = rows.shift();
   console.log({ numbersToCall });
   const boards = [];
